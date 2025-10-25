@@ -12,7 +12,7 @@ export default function SearchBox({Data}) { // updateData prop receive kiya
     
     const API_URL = "http://api.openweathermap.org/geo/1.0/direct"; // ? hata diya, taaki parameters acche se lagayein
     
-    const API_KEY = "a4f87b036019bf761947189482e766f4";
+    const API_KEY = "PASTE_YOUR_API_KEY";
     const[city,setCity] = useState("");
 
     async function getWeatherData(){
